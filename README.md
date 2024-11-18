@@ -56,7 +56,7 @@ Repositorio de la API: [GitHub - Gutendex](https://github.com/garethbjohnson/gut
 ### 3. Agregar Dependencias
 Incluye las siguientes dependencias en tu archivo `pom.xml`:
 
-```xml
+
 <dependency>
     <groupId>com.fasterxml.jackson.core</groupId>
     <artifactId>jackson-databind</artifactId>
@@ -67,7 +67,6 @@ Incluye las siguientes dependencias en tu archivo `pom.xml`:
 
 ### Clona el repositorio:
 
-```bash
 git clone <url_del_repositorio>
 
 ### Compila y ejecuta el proyecto:
