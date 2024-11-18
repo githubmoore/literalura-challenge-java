@@ -1,3 +1,4 @@
+-- Active: 1731946601749@@aws-0-sa-east-1.pooler.supabase.com@6543@literalura@public
 -- Insertar algunos autores de prueba
 INSERT INTO autores (nombre, anio_nacimiento, anio_fallecimiento) VALUES
     ('Miguel de Cervantes', 1547, 1616),
