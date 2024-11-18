@@ -1,3 +1,4 @@
+-- Active: 1731946601749@@aws-0-sa-east-1.pooler.supabase.com@6543@literalura
 -- Crear la base de datos
 CREATE DATABASE literalura;
 
@@ -49,4 +50,4 @@ CREATE TRIGGER update_autores_updated_at
 CREATE TRIGGER update_libros_updated_at
     BEFORE UPDATE ON libros
     FOR EACH ROW
-    EXECUTE FUNCTION update_updated_at_column();!
+    EXECUTE FUNCTION update_updated_at_column();
